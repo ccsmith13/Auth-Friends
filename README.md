@@ -26,9 +26,11 @@ Topics:
 
 ## Initialize Project
 
-* Run `yarn` or `npm i` inside the root directory of this project to install dependencies.
+* Run `yarn install` or `npm install` inside the root directory of this project to install dependencies.
+* Instructions wrong, should be `yarn install`, not `yarn`
 * Run `yarn start` or `npm start` to start the API server.
 * Run `create-react-app friends` in a separate terminal window in the root directory of the project to create your starter application.
+* Instructions wrong, had to do `yarn create react-app friends` instead, requiring to add / remove some dependencies for it to work
 * `cd` into the _friends_ folder and type `yarn add axios react-router-dom` which will install the needed dependencies.
 
 ## Build the App!
